@@ -12,6 +12,7 @@
     <div class="row">
             <?php
             include_once "includes/menuext.php";
+            // incluimos el menu
             ?>
         <main class="col-12 col-s-12 principal">
             <div class="col-12 col-s-12">

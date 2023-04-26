@@ -1,5 +1,6 @@
 <?php
 session_start();
+// iniciar las variables de sesion
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +20,7 @@ session_start();
     <div class="row">
         <?php
         include_once "includes/menuext.php";
+        // insertar el menu
         ?>
         <div class="col-12 col-s-12">
             <div class="col-10 col-s-10">
@@ -66,6 +68,7 @@ session_start();
                 </form>
                 <?php
                 include_once "controlador/userController.php";
+                // incluimos el controlador
                 ?>
             </div>
         </div>
